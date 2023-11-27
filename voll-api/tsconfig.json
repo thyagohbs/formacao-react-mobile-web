@@ -18,7 +18,7 @@
 	},
 	"include": [
 		"./src/**/*"
-	],
+, "../tsconfig.json"	],
 	"exclude": [
 		"node_modules"
 	],
