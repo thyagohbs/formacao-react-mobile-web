@@ -1,8 +1,8 @@
+import styled from 'styled-components';
 import whatsapp from './assets/whatsapp.png';
 import instagram from './assets/instagram.png';
 import google from './assets/google.png';
 import facebook from './assets/facebook.png';
-import styled from 'styled-components';
 
 const RodapeEstilizado = styled.footer`
 height: 100%;
@@ -12,6 +12,7 @@ background-color: var(--azul-escuro);
 text-align: center;
 `
 
+
 const ListaEstilizada = styled.ul`
 display: flex;
 justify-content: space-around;
@@ -19,9 +20,11 @@ width: 10%;
 margin: 1em auto;
 `
 
+
 const ItemEstilizado = styled.li`
 list-style-type: none;
 `
+
 
 function Rodape() {
     return (
