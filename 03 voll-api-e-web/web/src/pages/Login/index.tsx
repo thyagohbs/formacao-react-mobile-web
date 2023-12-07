@@ -13,14 +13,14 @@ const Titulo = styled.h2`
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
-  color: var(--cinza)
+  color: var(--cinza);
 `;
 
 const Paragrafo = styled.p`
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-  color: var(--azul-escuro)
+  color: var(--azul-escuro);
 `;
 
 const ParagrafoCadastro = styled(Paragrafo)`

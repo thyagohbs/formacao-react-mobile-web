@@ -36,11 +36,11 @@ export default function CampoDigitacao({ valor, tipo, placeholder, onChange, lab
         <Container>
         <Rotulo>{label}</Rotulo>
         <Campo
-            type={tipo}
-            value={valor}
-            placeholder={placeholder}
-            onChange={(e) => onChange(e.target.value)}
-            required
+        type={tipo}
+        value={valor}
+        placeholder={placeholder}
+        onChange={(e) => onChange(e.target.value)}
+        required
         />
         </Container>
     )
