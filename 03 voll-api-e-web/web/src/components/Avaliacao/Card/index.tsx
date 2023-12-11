@@ -38,7 +38,7 @@ const ImagemEstilizada = styled.img`
     object-fit: cover;
     height: 64px;
     border: 2px solid var(--azul-claro);
-    margin-right: 1em
+    margin-right: 1em;
 `
 
 
@@ -49,7 +49,7 @@ const ParagrafoNomeEstilizado = styled.p`
 
 const ParagrafoEstilizado = styled.p`
     margin: .5em 0;
-    font-size: 14px
+    font-size: 14px;
 `
 
 function Card({ profissional }: { profissional: IProfissional }) {
@@ -67,7 +67,7 @@ function Card({ profissional }: { profissional: IProfissional }) {
                 <ItemEstilizado>
                     <Rating
                         name="simple-controlled"
-                        value={profissional.nota}
+                        value={3}
                         readOnly={true}
                     />
                 </ItemEstilizado>
